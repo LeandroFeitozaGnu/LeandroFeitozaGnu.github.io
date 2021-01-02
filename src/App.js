@@ -1,3 +1,7 @@
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import { blue } from '@material-ui/core/colors';
+
 import './App.css';
 
 function App() {
@@ -35,7 +39,18 @@ function App() {
           <p>
             Procuro uma oportunidade de iniciar a carreira de desenvolvedor, e continuar aperfeiçoando as minhas habilidades de Dev.
           </p>
-        </div>  
+        </div>
+      </section>
+      <section className="section-contato">
+        <span>Entre em contato</span>
+        <div className="wraper-links-contato">
+          <a href="https://github.com/LeandroFeitozaGnu" target="_blank">
+            <GitHubIcon style={{ color: blue[50] }} fontSize="large" />
+          </a>
+          <a href="https://www.linkedin.com/in/leandrofeitoza" target="_blank">
+            <LinkedInIcon style={{ color: blue[50] }} fontSize="large" />
+          </a>
+        </div>
       </section>
     </>
   );  
